@@ -1,0 +1,85 @@
+
+/* Global */
+
+/*Common styles*/
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul { margin:0; padding:0;}
+body {}
+input:focus, button:focus, select:focus, a:focus, a:focus img, textarea:focus, :focus {outline:none;}
+textarea {resize:none;}
+img { vertical-align:middle; max-width:100%;}
+a { color: $red; }
+a:focus {color:inherit !important;}
+a, a:focus, a:hover{text-decoration:none;}
+ol, ul { list-style:none;}
+.clear { clear:both;} 
+.fL { float:left;}
+.fR {float:right;}
+/*Clearfix*/
+.clearfix:before {content: "";display: table;}
+.clearfix:after {content: "";display: table;}
+.clearfix:after {clear: both;}
+.block{ display: block;}
+/*Type*/
+p {padding-bottom:15px;}
+.center-block{ float:none !important; margin:0 auto;}
+
+body {
+    color:#000;
+	font-family:'Raleway',sans-serif;	
+}
+
+/*banner image*/
+.cover-bg {
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+/*middle align */
+.middle-align {
+    display:table;
+    height:1px;
+    min-height:inherit;
+    max-width:500px;
+}
+.middle-align > div {
+    display:table-cell;
+    vertical-align:bottom;
+    padding-bottom: 60px;
+}
+
+.hero-slide{display: none;}
+.hero-slide.slick-initialized{ display: block}
+.hero-banner{position: relative;}
+.hero-banner .container{min-height:inherit;position: relative;}
+
+.banner-content h1{
+    color:#fff;
+    font-size: 32px;
+    text-transform: capitalize;
+}
+.banner-content p{
+    color:#fff;
+    font-size: 14px;
+}
+
+.hero-slide .slick-arrow {background-color:transparent;border:none;position:absolute;top:50%;z-index:2;overflow:hidden;height:60px;width:60px;margin-top: -30px;}
+.hero-slide .slick-arrow.slick-prev{left:45px;background:url(../images/1461838223_previous.png);}
+.hero-slide .slick-arrow.slick-prev:before {content: "";}
+.hero-slide .slick-arrow.slick-next{right:45px;background:url(../images/1461838213_next.png);}
+.hero-slide .slick-arrow.slick-next:before {content: "";}
+.hero-slide .slick-arrow :before {color:#000;display:block;}
+
+.details-page{padding-top: 72px;}
+.details-content{padding-bottom: 30px;}
+.project-details{
+    background-color: #ccc;
+    padding: 20px;
+    height: 100%;
+}
+.project-details h3{
+    padding-bottom: 20px;
+}
+
+
+#
